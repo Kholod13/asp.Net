@@ -17,6 +17,14 @@ namespace aspNet.Controllers
         {
             return View();
         }
+        public IActionResult History()
+        {
+            return View();
+        }
+        public IActionResult Pictures()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {

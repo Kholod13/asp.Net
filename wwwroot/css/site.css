@@ -16,3 +16,27 @@ html {
 body {
   margin-bottom: 60px;
 }
+img{
+    border: solid 5px black;
+    border-radius: 15px;
+    margin-right: 20px;
+    max-height: 300px;
+}
+.cont{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item {
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    margin: 20px;
+    flex-direction:column;
+    align-items: top;
+}
+.item img{
+    width: 100%;
+    height: 200px;
+}
